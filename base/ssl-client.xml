@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+    <property>
+        <name>ssl.client.truststore.location</name>
+        <value>/etc/security/clientkeys/hadoopClient.truststore</value>
+      </property>
+    <property>
+        <name>ssl.client.truststore.password</name>
+        <value>changeit</value>
+    </property>
+    <property>
+        <name>ssl.client.truststore.type</name>
+        <value>pkcs12</value>
+    </property>
+    <property>
+        <name>ssl.client.truststore.reload.interval</name>
+        <value>10000</value>
+    </property>
+    <property>
+        <name>ssl.client.keystore.location</name>
+        <value>/etc/security/clientkeys/hadoopClientKeystore.p12</value>
+    </property>
+    <property>
+        <name>ssl.client.keystore.password</name>
+        <value>changeit</value>
+    </property>
+    <property>
+        <name>ssl.client.keystore.keypassword</name>
+        <value>changeit</value>
+    </property>
+    <property>
+        <name>ssl.client.keystore.type</name>
+        <value>pkcs12</value>
+    </property>
+    
+</configuration>
